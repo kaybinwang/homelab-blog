@@ -1,0 +1,47 @@
+repos:
+# GitHub Actions linter
+- repo: https://github.com/rhysd/actionlint
+  rev: v1.6.23
+  hooks:
+  - id: actionlint-docker
+
+# yaml linter
+- repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+  rev: v2.7.0
+  hooks:
+  - id: pretty-format-yaml
+    args: [--autofix, --indent, '2', --line-width, '80']
+
+# shell script linter
+- repo: https://github.com/shellcheck-py/shellcheck-py
+  rev: v0.9.0.2
+  hooks:
+  - id: shellcheck
+
+# misc linters
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v4.4.0
+  hooks:
+  - id: check-added-large-files
+  - id: check-ast
+  - id: check-builtin-literals
+  - id: check-case-conflict
+  - id: check-docstring-first
+  - id: check-shebang-scripts-are-executable
+  - id: check-merge-conflict
+  - id: check-json
+  - id: check-toml
+  - id: check-xml
+  - id: check-yaml
+    args: [--allow-multiple-documents]
+  - id: debug-statements
+  - id: destroyed-symlinks
+  - id: detect-private-key
+  - id: end-of-file-fixer
+    exclude: ^LICENSE|\.(html|csv|txt|svg|py)$
+  - id: pretty-format-json
+    args: [--autofix, --no-ensure-ascii, --no-sort-keys]
+  - id: requirements-txt-fixer
+  - id: trailing-whitespace
+    args: [--markdown-linebreak-ext=md]
+    exclude: \.(html|svg)$
