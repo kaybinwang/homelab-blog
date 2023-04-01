@@ -1,5 +1,5 @@
 # Homelab Blog
-![CI Status](https://github.com/kaybinwang/dotfiles/actions/workflows/build.yml/badge.svg)
+![CI Status](https://github.com/kaybinwang/homelab-blog/actions/workflows/build.yaml/badge.svg)
 
 A static blog site that documents my
 [homelab](https://github.com/kaybinwang/homelab) journey.
