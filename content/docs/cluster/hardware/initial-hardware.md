@@ -1,8 +1,9 @@
 ---
-title: With ToC
+title: Initial Hardware
 weight: 1
 ---
-# Caput vino delphine in tamen vias
+# Hardware
+Our first step is hardware selection!
 
 ## Cognita laeva illo fracta
 
