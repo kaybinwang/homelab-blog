@@ -2,3 +2,6 @@ baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = "homelab blog"
 theme = 'hugo-book'
+
+[params]
+BookSection = '*'
