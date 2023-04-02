@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Home
 type: docs
 ---
 # Introduction
@@ -41,3 +41,13 @@ dependency could break the entire system. Instead, we will place an emphasis on
 making sure every new feature is protected by at least one functional test.
 Testing infrastructure can be tricky, so we'll have to come up with creative
 strategies.
+
+## Timeline
+I call this a psuedo blog since the posts are not organized chronologically.
+This is so that readers can see all the content upfront and focus on whatever
+topics that they are interested in.
+
+Here's the timeline if you are interested in seeing how the build developed
+chronologically.
+  1. [Initial Hardware]({{< ref "/hardware/initial-hardware" >}})
+  2. [OS Installation]({{< ref "/hardware/os-installation" >}})

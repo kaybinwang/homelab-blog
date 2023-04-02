@@ -1,65 +1,39 @@
 ---
-title: Initial Hardware
 weight: 1
 ---
-# Hardware
-Our first step is hardware selection!
+# Initial Hardware
+Our first step is picking out the clusters hardware!
 
-## Cognita laeva illo fracta
+I decided to build the Kuberenetes cluster using Raspberry Pis. This is because
+Raspberry Pis are generally low-cost, making them cheap to add and easy to
+replace. In order to [scale responsibility]({{< ref "/#scale-responsibly" >}}),
+we will only use two Raspberry Pis for the initial build. This will reduce
+upfront costs. We will only add more nodes to the system when we need to.
 
-Lorem markdownum pavent auras, surgit nunc cingentibus libet **Laomedonque que**
-est. Pastor [An](http://est.org/ire.aspx) arbor filia foedat, ne [fugit
-aliter](http://www.indiciumturbam.org/moramquid.php), per. Helicona illas et
-callida neptem est *Oresitrophos* caput, dentibus est venit. Tenet reddite
-[famuli](http://www.antro-et.net/) praesentem fortibus, quaeque vis foret si
-frondes *gelidos* gravidae circumtulit [inpulit armenta
-nativum](http://incurvasustulit.io/illi-virtute.html).
+Here's the list of hardware I'll be using.
+  - 2 x [Raspberry Pi Model B w/ 4GB
+    RAM](https://www.canakit.com/raspberry-pi-4-4gb.html): Latest Raspberry
+    Pi model. I opted for the 4GB model since it's sufficient for most use cases
+    and we currently don't have any high memory requirements at the moment.
+  - 2 x [32GB microSDHC Memory
+    Card](https://www.amazon.com/gp/product/B06XWMQ81P): System storage for each
+    Raspberry Pi. You can get much better results using USBs or even SSDs, but
+    it comes at a higher cost.
+  - 2 x [Raspberry Pi PoE
+    HAT](https://www.canakit.com/raspberry-pi-poe-hat.html) (optional): Used to
+    power the Rasperry Pi over Ethernet, hence PoE. This costs extra but reduces
+    the amount of cables needed to power each Raspberry Pi.
+  - 1 x [Cat6A Ethernet Cable (6
+    in)](https://www.amazon.com/gp/product/B07957VQBJ): Used to network the
+    cluster nodes together. Can also power the Rasperry Pi when used with the
+    PoE HAT.
+  - 1 x [5 Port Network Switch](https://www.amazon.com/gp/product/B076HZFY3F)
+    (PoE ports optional): Used to network the cluster nodes together using
+    ethernet cables. PoE ports only necessary if you plan to use
+    Power-over-Ethernet.
+  - 1 x Cluster Case (optional): Enclosure to help keep everything organized and
+    bundled together.
 
-1. Te at cruciabere vides rubentis manebo
-2. Maturuit in praetemptat ruborem ignara postquam habitasse
-3. Subitarum supplevit quoque fontesque venabula spretis modo
-4. Montis tot est mali quasque gravis
-5. Quinquennem domus arsit ipse
-6. Pellem turis pugnabant locavit
+At this time, the total costs came in around $250 USD. Not bad!
 
-## Natus quaerere
-
-Pectora et sine mulcere, coniuge dum tincta incurvae. Quis iam; est dextra
-Peneosque, metuis a verba, primo. Illa sed colloque suis: magno: gramen, aera
-excutiunt concipit.
-
-> Phrygiae petendo suisque extimuit, super, pars quod audet! Turba negarem.
-> Fuerat attonitus; et dextra retinet sidera ulnas undas instimulat vacuae
-> generis? *Agnus* dabat et ignotis dextera, sic tibi pacis **feriente at mora**
-> euhoeque *comites hostem* vestras Phineus. Vultuque sanguine dominoque [metuit
-> risi](http://iuvat.org/eundem.php) fama vergit summaque meus clarissimus
-> artesque tinguebat successor nominis cervice caelicolae.
-
-## Limitibus misere sit
-
-Aurea non fata repertis praerupit feruntur simul, meae hosti lentaque *citius
-levibus*, cum sede dixit, Phaethon texta. *Albentibus summos* multifidasque
-iungitur loquendi an pectore, mihi ursaque omnia adfata, aeno parvumque in animi
-perlucentes. Epytus agis ait vixque clamat ornum adversam spondet, quid sceptra
-ipsum **est**. Reseret nec; saeva suo passu debentia linguam terga et aures et
-cervix [de](http://www.amnem.io/pervenit.aspx) ubera. Coercet gelidumque manus,
-doluit volvitur induta?
-
-## Enim sua
-
-Iuvenilior filia inlustre templa quidem herbis permittat trahens huic. In
-cruribus proceres sole crescitque *fata*, quos quos; merui maris se non tamen
-in, mea.
-
-## Germana aves pignus tecta
-
-Mortalia rudibusque caelum cognosceret tantum aquis redito felicior texit, nec,
-aris parvo acre. Me parum contulerant multi tenentem, gratissime suis; vultum tu
-occupat deficeret corpora, sonum. E Actaea inplevit Phinea concepit nomenque
-potest sanguine captam nulla et, in duxisses campis non; mercede. Dicere cur
-Leucothoen obitum?
-
-Postibus mittam est *nubibus principium pluma*, exsecratur facta et. Iunge
-Mnemonidas pallamque pars; vere restitit alis flumina quae **quoque**, est
-ignara infestus Pyrrha. Di ducis terris maculatum At sede praemia manes
-nullaque!
+## Assembly
