@@ -1,4 +1,4 @@
-FROM klakegg/hugo:ext-alpine
+FROM klakegg/hugo:0.107.0-ext
 
 WORKDIR /blog/
 COPY . .
