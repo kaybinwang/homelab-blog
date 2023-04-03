@@ -8,7 +8,7 @@ I decided to build the Kuberenetes cluster using Raspberry Pis. This is because
 Raspberry Pis are generally low-cost, making them cheap to add and easy to
 replace. In order to [scale responsibility]({{< ref "/#scale-responsibly" >}}),
 we will only use two Raspberry Pis for the initial build. This will reduce
-upfront costs. We will only add more nodes to the system when we need to.
+upfront costs and we will only add more nodes to the system when we need to.
 
 Here's the list of hardware I'll be using.
   - 2 x [Raspberry Pi Model B w/ 4GB

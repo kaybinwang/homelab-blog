@@ -26,8 +26,8 @@ process.
 Some homelab setups immediately jump into a highly available cluster with
 multiple redundancies throughout the stack. Instead, we'll start from zero and
 scale out our system as we need it. This is so that we can:
-  1) Save costs on unnecessary hardware until we need it
-  2) Learn how to safely scale out an existing system
+  1) Save money by only purchasing new hardware when we need it
+  2) Learn how to safely add and upgrade hardware in an existing system
 
 ### Minimize Downtime
 The cluster is a production environment. This means we need to minimize downtime
@@ -49,5 +49,5 @@ topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. [Initial Hardware]({{< ref "/hardware/initial-hardware" >}})
-  2. [OS Installation]({{< ref "/hardware/os-installation" >}})
+  1. [Initial Hardware]({{< ref "/nodes/initial-hardware" >}})
+  2. [Operating System]({{< ref "/nodes/operating-system" >}})
