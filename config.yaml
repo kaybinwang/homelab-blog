@@ -2,7 +2,14 @@ baseURL: http://example.org/
 languageCode: en-us
 title: homelab blog
 theme:
-  - homelab-short-codes
   - hugo-book
+  - hugo-book-overrides
+
+# source: https://github.com/alex-shpak/hugo-book/blob/master/exampleSite/config.yaml
+disablePathToLower: true
+enableGitInfo: true
+
 params:
   BookSection: '*'
+  BookRepo: https://github.com/kaybinwang/homelab-blog
+  BookCommitPath: commit
