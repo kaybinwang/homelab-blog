@@ -1,10 +1,11 @@
 ---
-title: Operating System
-weight: 2
+title: Installing Raspberry Pi OS
+weight: 1
 ---
-# Operating System
-Now that we have assembled the [hardware]({{< ref "/nodes/hardware/initial-hardware" >}}),
-we'll move onto installing and configuring the operating system.
+# Installing Raspberry Pi OS
+Now that we have assembled the [initial hardware]({{< ref
+"/nodes/hardware/initial-hardware" >}}) for our cluster, we'll move onto
+installing and configuring the operating system.
 
 ## Selection Criteria
 The hardest part is choosing which OS to install. There are so many different
@@ -31,8 +32,7 @@ different operating system. However, at this point in time, it's too early to
 predict what those future requirements might be.
 
 ## Installation
-
-### Raspberry Pi OS
+### Flash OS Image
 We can install Raspberry Pi OS onto each node using the [Raspberry Pi
 Imager](https://www.raspberrypi.com/software/). This tool can flash our SD cards
 using a pre-built OS image. It can also configure other things like enabling SSH,
@@ -44,11 +44,10 @@ Raspberry OS. It's perfect for our use case because it doesn't include
 unnecessary bloat like a GUI.
 
 {{< hint info >}}
-**Note**
-
+**Note:**
 We technically could get away with using a 32-bit architecture since each node
-only has access to 4GB of RAM. However, there's usually much better software
-support for 64-bit architecture when it comes to servers (e.g. `arm64`).
+only has access to 4GB of RAM. However, there's usually much better server
+software support for 64-bit architecture (e.g. `arm64`).
 {{< /hint >}}
 
 ### Update System
@@ -72,8 +71,7 @@ machine on the network. This will simplify the way the nodes communicate with
 each other.
 
 {{< hint info >}}
-**Note**
-
+**Note:**
 It's possible for all the nodes in the cluster to have dynamic IPs, but this
 requires a more advanced setup.
 {{< /hint >}}
@@ -102,3 +100,4 @@ Now just repeat the same setup for all the other nodes and we're done!
 Note that this process is very manual, but we're only managing two nodes at the
 moment. Eventually we'll want to automate it. I know there are tools out there
 like `ansible`, `chef`, `salt`, etc.
+
