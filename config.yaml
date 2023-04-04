@@ -1,0 +1,8 @@
+baseURL: http://example.org/
+languageCode: en-us
+title: homelab blog
+theme:
+  - homelab-short-codes
+  - hugo-book
+params:
+  BookSection: '*'
