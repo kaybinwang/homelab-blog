@@ -49,5 +49,5 @@ topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. [Building a Minimal Raspberry Pi Cluster]({{< ref "/nodes/hardware/building-a-minimal-raspberry-pi-cluster" >}})
+  1. [Assembling a Basic Cluster]({{< ref "/nodes/hardware/assembling-a-basic-cluster" >}})
   2. [Installing Raspberry Pi OS]({{< ref "/nodes/operating-system/installing-raspberry-pi-os" >}})

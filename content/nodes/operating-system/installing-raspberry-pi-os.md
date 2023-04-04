@@ -3,9 +3,9 @@ title: Installing Raspberry Pi OS
 weight: 1
 ---
 # Installing Raspberry Pi OS
-Now that we have assembled the [initial hardware]({{< ref
-"/nodes/hardware/initial-hardware" >}}) for our cluster, we'll move onto
-installing and configuring the operating system.
+Now that we have assembled our [Raspberry Pi cluster]({{< ref
+"/nodes/hardware/assembling-a-basic-cluster" >}}), we can move
+onto installing and configuring the operating system.
 
 ## Selection Criteria
 The hardest part is choosing which OS to install. There are so many different
