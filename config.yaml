@@ -2,8 +2,8 @@ baseURL: http://example.org/
 languageCode: en-us
 title: homelab blog
 theme:
-  - hugo-book
   - hugo-book-overrides
+  - hugo-book
 
 # source: https://github.com/alex-shpak/hugo-book/blob/master/exampleSite/config.yaml
 disablePathToLower: true
