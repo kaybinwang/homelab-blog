@@ -26,8 +26,8 @@ process.
 Some homelab setups immediately jump into a highly available cluster with
 multiple redundancies throughout the stack. Instead, we'll start from zero and
 scale out our system as we need it. This is so that we can:
-  1) Save money by only purchasing new hardware when we need it
-  2) Learn how to safely add and upgrade hardware in an existing system
+  1) Save money by only purchasing new hardware when we need it.
+  2) Learn how to safely add and upgrade hardware in an existing system.
 
 ### Minimize Downtime
 The cluster is a production environment. This means we need to minimize downtime
@@ -49,18 +49,18 @@ topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. [Assembling a Basic Cluster]({{< ref "/nodes/hardware/assembling-a-minimal-cluster" >}})
-  2. [Installing Raspberry Pi OS]({{< ref "/nodes/operating-system/installing-raspberry-pi-os" >}})
-  3. [Installing K3s]({{< ref "/infrastructure/kubernetes/installing-k3s" >}})
-  4. [Setting up a GitHub Actions Workflow]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  5. [Continuous Deployment]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  6. [MetalLB]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  7. [Ingress]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  8. [Pihole]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  9. [Prometheus and Node Exporter]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  10. [Grafana]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
-  11. [Loki]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  1. {{< relrefwithtitle "/nodes/hardware/assembling-a-minimal-cluster" >}}
+  2. {{< relrefwithtitle "/nodes/operating-system/installing-raspberry-pi-os" >}}
+  3. {{< relrefwithtitle "/infrastructure/kubernetes/installing-k3s" >}}
+  4. {{< relrefwithtitle "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}}
+  5. Continuous Deployment
+  6. MetalLB
+  7. Ingress
+  8. Pihole
+  9. Prometheus and Node Exporter
+  10. Grafana
+  11. Loki
   12. Browser Testing
-  13. [Dashboard]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  13. Dashboard
   14. Visual Testing
   15. Distributed Block Storage With Longhorn
