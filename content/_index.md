@@ -49,5 +49,18 @@ topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. [Assembling a Basic Cluster]({{< ref "/nodes/hardware/assembling-a-basic-cluster" >}})
+  1. [Assembling a Basic Cluster]({{< ref "/nodes/hardware/assembling-a-minimal-cluster" >}})
   2. [Installing Raspberry Pi OS]({{< ref "/nodes/operating-system/installing-raspberry-pi-os" >}})
+  3. [Installing K3s]({{< ref "/infrastructure/kubernetes/installing-k3s" >}})
+  4. [Setting up a GitHub Actions Workflow]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  5. [Continuous Deployment]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  6. [MetalLB]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  7. [Ingress]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  8. [Pihole]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  9. [Prometheus and Node Exporter]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  10. [Grafana]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  11. [Loki]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  12. Browser Testing
+  13. [Dashboard]({{< ref "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}})
+  14. Visual Testing
+  15. Distributed Block Storage With Longhorn

@@ -1,11 +1,10 @@
----
-weight: 1
----
-# Kubernetes
-Kubernetes (aka k8s) is a container orchestration framework that abstracts the operational
-overhead of deploying applications across multiple nodes.
+# Installing K3s
 
-## K3s Distribution
+## What is K3s
+Kubernetes (sometimes stylized as k8s) is a container orchestration framework
+that abstracts the operational overhead of deploying and managing containers
+across multiple nodes inside a cluster.
+
 Kubernetes is usually deployed in cloud environments and has a lot of
 integrations with different cloud providers. This adds a lot of unnecessary
 bloat for folks that want to deploy Kubernetes onto a bare metal cluster.
@@ -58,3 +57,4 @@ After installing, let's test it out
 ```bash
 $ kubectl get nodes
 ```
+

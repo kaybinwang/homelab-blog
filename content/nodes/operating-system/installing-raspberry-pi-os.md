@@ -4,7 +4,7 @@ weight: 1
 ---
 # Installing Raspberry Pi OS
 Now that we have assembled our [Raspberry Pi cluster]({{< ref
-"/nodes/hardware/assembling-a-basic-cluster" >}}), we can move
+"/nodes/hardware/assembling-a-minimal-cluster" >}}), we can move
 onto installing and configuring the operating system.
 
 ## Selection Criteria
