@@ -49,5 +49,5 @@ topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. [Initial Hardware]({{< ref "/nodes/initial-hardware" >}})
+  1. [Initial Hardware]({{< ref "/nodes/hardware/initial-hardware" >}})
   2. [Operating System]({{< ref "/nodes/operating-system" >}})

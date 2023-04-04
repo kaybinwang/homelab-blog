@@ -3,7 +3,7 @@ title: Operating System
 weight: 2
 ---
 # Operating System
-Now that we have assembled the [hardware]({{< ref "/nodes/initial-hardware" >}}),
+Now that we have assembled the [hardware]({{< ref "/nodes/hardware/initial-hardware" >}}),
 we'll move onto installing and configuring the operating system.
 
 ## Selection Criteria
