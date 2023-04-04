@@ -100,4 +100,3 @@ Now just repeat the same setup for all the other nodes and we're done!
 Note that this process is very manual, but we're only managing two nodes at the
 moment. Eventually we'll want to automate it. I know there are tools out there
 like `ansible`, `chef`, `salt`, etc.
-

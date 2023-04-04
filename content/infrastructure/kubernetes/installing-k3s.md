@@ -57,4 +57,3 @@ After installing, let's test it out
 ```bash
 $ kubectl get nodes
 ```
-
