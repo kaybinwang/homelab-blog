@@ -43,24 +43,35 @@ Testing infrastructure can be tricky, so we'll have to come up with creative
 strategies.
 
 ## Timeline
-I call this a psuedo blog since the posts are not organized chronologically.
+I call this a psuedo-blog since the posts are not organized chronologically.
 This is so that readers can see all the content upfront and focus on whatever
 topics that they are interested in.
 
 Here's the timeline if you are interested in seeing how the build developed
 chronologically.
-  1. {{< relrefwithtitle "/nodes/hardware/assembling-a-minimal-cluster" >}}
-  2. {{< relrefwithtitle "/nodes/operating-system/installing-raspberry-pi-os" >}}
+  1. {{< relrefwithtitle "/cluster-nodes/hardware/assembling-a-minimal-raspberry-pi-cluster" >}}
+  2. {{< relrefwithtitle "/cluster-nodes/operating-system/installing-raspberry-pi-os" >}}
   3. {{< relrefwithtitle "/infrastructure/kubernetes/installing-k3s" >}}
-  4. {{< relrefwithtitle "/infrastructure/continuous-integration/setting-up-a-github-actions-workflow" >}}
-  5. Continuous Deployment
-  6. MetalLB
-  7. Ingress
-  8. Pihole
-  9. Prometheus and Node Exporter
-  10. Grafana
-  11. Loki
-  12. Browser Testing
-  13. Dashboard
-  14. Visual Testing
-  15. Distributed Block Storage With Longhorn
+  4. {{< relrefwithtitle "/testing/local-development/creating-a-local-cluster-using-k3d" >}}
+  5. {{< relrefwithtitle "/infrastructure/continuous-integration/automated-testing-pipeline-with-github-actions" >}}
+  6. {{< relrefwithtitle "/infrastructure/continuous-deployment/automated-deploys-with-fluxcd" >}}
+  7. {{< relrefwithtitle "/applications/ad-blocker/network-level-ad-blocking-with-pi-hole" >}}
+  8. {{< relrefwithtitle "/infrastructure/load-balancer/replacing-klipper-servicelb-with-metallb" >}}
+  9. Configuring Traefik in K3s (dashboard and access logs)
+  10. Routing: Subdomain vs. Subdirectory
+  11. Prometheus and Node Exporter
+  12. Grafana
+  13. Loki
+  14. Browser Testing
+  15. {{< relrefwithtitle "/applications/dashboard/setting-up-an-application-dashboard-with-homarr" >}}
+  16. Visual Testing
+  17. Terminal??
+  18. {{< relrefwithtitle "/cluster-nodes/hardware/making-the-poe-hat-fans-quieter" >}}
+
+Roadmap:
+  - Distributed Block Storage With Longhorn
+  - Mounting an NFS For File Data and Backups
+  - Simulating Single Node Failure in Tests
+  - Upgrading the Cluster Case With Minimal Downtime
+  - Registering a Domain Name With a Dynamic IP Address
+  - Enforcing HTTPS on Ingress Routes

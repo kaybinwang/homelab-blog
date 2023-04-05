@@ -1,3 +1,10 @@
 {{- with .Site.GetPage (.Get 0) -}}
-<a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+  {{- $title := partial "docs/title" . -}}
+  {{- if $title -}}
+  <a href="{{ .RelPermalink }}">{{ $title }}</a>
+  {{- else -}}
+    {{- errorf "Page '%s' not found" .File -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "Page '%s' not found" (.Get 0) -}}
 {{- end -}}

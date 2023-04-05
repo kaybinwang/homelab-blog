@@ -1,7 +1,7 @@
 ---
 weight: 1
 ---
-# Assembling a Minimal Cluster
+# Assembling a Minimal Raspberry Pi Cluster
 Our first step is picking out the clusters hardware!
 
 I decided to build the Kuberenetes cluster using Raspberry Pis. This is because
