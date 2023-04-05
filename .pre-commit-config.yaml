@@ -30,6 +30,10 @@ repos:
   - id: check-shebang-scripts-are-executable
   - id: check-merge-conflict
   - id: check-json
+    exclude: &json-templates |
+      (?x)^(
+        themes/hugo-book-overrides/assets/search-data.json
+      )
   - id: check-toml
   - id: check-xml
   - id: check-yaml
@@ -41,6 +45,7 @@ repos:
     exclude: ^LICENSE|\.(html|csv|txt|svg|py)$
   - id: pretty-format-json
     args: [--autofix, --no-ensure-ascii, --no-sort-keys]
+    exclude: *json-templates
   - id: requirements-txt-fixer
   - id: trailing-whitespace
     args: [--markdown-linebreak-ext=md]
