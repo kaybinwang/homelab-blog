@@ -23,6 +23,13 @@ First we install k3s onto the server nodes by running the following command.
 $ curl -sfL https://get.k3s.io | sh -s - --disable=servicelb,cloud-controller,helm-controller
 ```
 
+{{< hint info >}}
+**Note:**
+You can pass the `--disable` flag to disable installing certain services. For
+example, if you plan on install MetalLB, you should disable the built in
+service load-balancer by providing this option `--disable=servicelb`.
+{{< /hint >}}
+
 Note that we disable the following services:
   - servicelb (replaced with MetalLB)
   - cloud-controller (unused)
@@ -55,5 +62,8 @@ You need to substitute a value for `myserver` and `mynodetoken`.
 ## Testing
 After installing, let's test it out
 ```bash
-$ kubectl get nodes
+$ sudo kubectl get nodes
+NAME       STATUS   ROLES                  AGE   VERSION
+applepi    Ready    control-plane,master   20m   v1.25.7+k3s1
+bananapi   Ready    <none>                 20m   v1.25.7+k3s1
 ```
